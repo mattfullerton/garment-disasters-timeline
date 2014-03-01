@@ -1,0 +1,77 @@
+<!-- For credits, please see this blog post: http://www.mattbirgit.de/bangladeshclothingvisualization -->
+<html>
+  <head>
+    <title>Bangladesh factory disasters in numbers</title>
+    
+    <meta property="og:title" content="Bangladesh factory disasters in numbers"  /> 
+    <meta property="og:description" content="More than 1800 people have died in 32 clothes factory accidents in Bangladesh since 1990."  />  
+    <meta property="og:image" content="http://mattbirgit.de/sites/default/files/visualization.png" />   
+    <meta property="og.type" content="website"/>
+    <meta property="og.url" content="http://clothing.norainnosun.de"/>
+    
+    <link rel="stylesheet" href="//libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.css" />   
+    <link href='//fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="//libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js"></script>
+    <script src="data.js" type="text/javascript"></script>
+    <script src="stackedbars/stackedbars.js" type="text/javascript"></script>
+    <script src="plotter.js" type="text/javascript"></script>
+  </head>
+  
+  <div id='cartodb-map' onclick="stop(); return true;"></div>
+
+  <div id ="bargraph">
+    <h1 style="font-size: 18px;">
+      Bangladesh factory disasters in numbers:
+    </h1>
+    <h1 style="font-size: 16px;">
+      <span id="startYearLabel"></span> - <span id="endYearLabel"></span>
+    </h1>   
+    <div id="graph_killed"></div>
+    <div id="number_killed">#Killed</div>
+  </div>
+
+  <div id ="years">
+    <button id ="playpause" onClick="togglePlayPause();">
+      Pause
+    </button>
+    <div id ="slider" onclick="stop();"></div>
+  </div>
+
+  <!-- AddThis Button BEGIN -->
+  <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:20px;top:200px; background-color: rgba(255, 255, 255, 0.8);" addthis:url="http://clothing.norainnosun.de" addthis:title="Bangladesh factory disasters in numbers">  
+    <a class="addthis_button_preferred_1"></a>
+    <a class="addthis_button_preferred_2"></a>
+    <a class="addthis_button_preferred_3"></a>
+    <a class="addthis_button_preferred_4"></a>
+    <a class="addthis_button_compact"></a>
+  </div>
+  <script type="text/javascript">
+      var addthis_config = {"data_track_addressbar":false};
+  </script>
+  <script type="text/javascript"
+      src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51b8b719035606ef"></script>
+  <!-- AddThis Button END -->
+
+  <!-- AddThis Follow BEGIN -->
+  <div style="left:60px; bottom:40px; position:absolute; color: rgba(255, 255, 255, 0.8);">
+    Follow us
+  </div>
+  <div class="addthis_toolbox addthis_32x32_style addthis_default_style" style="left:17px; bottom:40px; position:absolute;">
+    <a class="addthis_button_twitter_follow" addthis:userid="bbfullerton"></a>
+  </div>
+  <div class="homepage" style="left:17px; bottom:10px; position:absolute;">
+    <a target="_blank" href="http://www.mattbirgit.de/bangladeshclothingvisualization" class="more" >More about this</a>
+  </div>
+  <script type="text/javascript"
+      src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51b8b719035606ef"></script>
+  <!-- AddThis Follow END -->
+  
+  </body>
+</html>

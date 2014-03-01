@@ -1,0 +1,3 @@
+[submodule "stackedbars"]
+	path = stackedbars
+	url = https://gist.github.com/9156556.git

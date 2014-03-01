@@ -1,0 +1,116 @@
+html, body {padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#cartodb-map {
+    width: 100%;
+    height:100%;
+    background: black;
+}
+
+#graph_killed {
+    height:70%;
+    position: absolute;
+    left: 20px;
+    width: 155px;
+    bottom: 35px;
+}
+
+#number_killed {
+    position: absolute;
+    left: 90px;
+    width: 115px;
+    bottom: 22px;
+}
+
+.leaflet-popup-content-wrapper {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div#slider.ui-slider {
+    width: 80%;
+    height: 20px;
+    top: 10px;
+    left: 10%;
+    right: 10%;
+    background: transparent;
+    border: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div#years {
+    width: 760px;
+    height: 55px;
+    bottom: 20px;
+    left: 20%;
+    background: rgba(255,255,255, 0.701961); /* To match CartoDB attributes style */
+    position: absolute;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div#bargraph {
+    width: 200px;
+    top: 40px;
+    bottom: 120px;
+    right: 20px;
+    position: absolute;
+    background: rgba(255,255,255, 0.701961); /* To match CartoDB attributes style */
+    position: absolute;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button#playpause {
+    width: 55px;
+    height: 21px;
+    top: 17px;
+    left: 5px;
+    bottom: 17px;
+    background: rgba(255,255,255, 0.701961); /* To match CartoDB attributes style */
+    position: absolute;
+    border-radius: 4px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: 'Arial', sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.baraxis text {
+    font-size: 10px;
+}
+
+svg {
+    font-size: 10px;
+    font-family: 'Arial', sans-serif;
+    shape-rendering: crispEdges;
+}
+
+.boxtitle {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    target-name:new;
+    target-new:tab;
+}
+
+.homepage a:link {text-decoration:none; color: rgba(255, 255, 255, 0.8);}
+.homepage a:visited {text-decoration:none; color: rgba(255, 255, 255, 0.8);}
+.homepage a:hover {text-decoration:none; color: rgba(255, 255, 255, 1);}
+.homepage a:active {text-decoration:none; color: rgba(255, 255, 255, 0.5);}
+
