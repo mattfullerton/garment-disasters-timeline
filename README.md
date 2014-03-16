@@ -1,5 +1,7 @@
 #garment-disasters-timeline
 
+N.B.: The current version is slightly broken because it is assumed that the SQL query responses come back in the order in which they were issued.
+
 A simple web-based visualization of garment factory disasters in Bangladesh, the initial version of which was created in the wake of the [Rana Plaza disaster](http://en.wikipedia.org/wiki/2013_Savar_building_collapse). See it at http://clothing.norainnosun.de/.
 
 ##Setup
